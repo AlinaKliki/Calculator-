@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>calculator - A. Klykouskaya</title>
+</head>
+
+<body>
+  <main class="main">
+      <div class="calc">
+        <div class="calc-display">
+          <input disabled type="text" id="display" value="0" name="" placeholder="000000000000000000" class="calc-display-input">
+        </div>
+        <div class="calc-buttons">
+          <table class="calc-table">
+            <tr class="calc-buttons-row">
+			
+<!-- 1 строка -->
+			 <td>
+                <button type="button" class="operator btn btn-hover-blue" id="degree">^</button>
+              </td>
+			  <td>
+                <button type="button" class="number btn-hover-viol btn">7</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">8</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">9</button>
+              </td>
+			  <td>
+                <button type="button" class="operator btn btn-hover-pink">/</button>
+              </td>
+			</tr>  
+			
+			
+<!-- 2 строка -->
+            <tr class="calc-buttons-row">
+			<td>
+                <button type="button" class="square btn btn-hover-blue" id="square">√</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">4</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">5</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">6</button>
+              </td>
+              <td>
+                <button type="button" class="operator btn btn-hover-pink">*</button>
+              </td>
+            </tr>
+			
+			
+<!-- 3 строка -->
+            <tr class="calc-buttons-row">
+			<td>
+                <button type="button" class="clearBtn btn btn-hover-red" id="ce">ce</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">1</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">2</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">3</button>
+              </td>
+              <td>
+                <button type="button" class="operator btn btn-hover-pink">-</button>
+              </td>
+            </tr>
+			
+			
+<!-- 4 строка -->
+            <tr class="calc-buttons-row">
+			<td>
+                <button type="button" class="clearBtn btn btn-hover-red" id="c">c</button>
+              </td>
+              <td>
+                <button type="button" class="number btn-hover-viol btn">0</button>
+              </td>
+              <td>
+                 <button type="button" class="btn  btn-hover-orange" id="decimal">.</button>
+              </td>
+              <td>
+                 <button type="button" class="btn  btn-hover-orange" id="minus">+/-</button>
+              </td>
+			    <td>
+                <button type="button" class="operator btn btn-hover-pink">+</button>
+				</td>
+            </tr>
+			
+			
+<!-- 5 строка -->
+            <tr class="calc-buttons-row">
+              <td colspan="5">
+			  <button type="button" id="result" class="operator btn btn-equal btn-hover-fiolet btn-long" id="result">=</button>
+              </td> 
+            </tr>
+          </table>
+        </div>
+      </div>
+  </main>
+  <script src="script.js">
+  </script>
+</body>
+</html>
